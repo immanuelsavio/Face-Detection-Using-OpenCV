@@ -29,7 +29,7 @@ while True:
         face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
 
 
-        file_name_path = 'face_images/'+str(count)+'.jpg'
+        file_name_path = 'faceimages/'+str(count)+'.jpg'
         cv2.imwrite(file_name_path,face)
 
 #        cv2.putText(face,str(count),(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
